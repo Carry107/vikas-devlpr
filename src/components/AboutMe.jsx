@@ -58,7 +58,7 @@ const AboutMe = () => {
             <div className="relative h-full flex items-center justify-center">
               <div className="relative z-10 overflow-hidden rounded-2xl shadow-xl border-2 border-indigo-100">
                 <img 
-                  src="public/vikas-dev.png" 
+                  src="public/images/vikas-dev.png" 
                   alt="Vikas Dev" 
                   className="w-full h-full object-cover" 
                 />

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌐 Vikas' Interactive Portfolio
 
 Welcome to my personal portfolio website — a sleek, high-performance, and immersive web experience built using **React**, **Three.js**, **Framer Motion**, and **React Router DOM**. This platform showcases my skills, projects, and passion for modern web development.
@@ -39,3 +40,7 @@ git clone https://github.com/Carry107/vikas-portfolio.git
 cd vikas-portfolio
 npm install
 npm run start
+=======
+# vk-portfolio
+This is my First Port-folio Website Page
+>>>>>>> deb22dece309be5f4a46f15311600c35977dd226
