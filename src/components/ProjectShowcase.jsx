@@ -1,48 +1,53 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-
+import Blue from "../assets/blue-sky-ocean.jpg"
+import Iphon from "../assets/iphon.jpg"
+import ItStudioRoom from "../assets/it-studio-room.jpg"
+import TreeFlower from "../assets/tree-flower.jpg"
+import YellowSky from "../assets/yelloeis-sky.jpg"
+import StudyRoom from "../assets/study-room.jpg"
 const ProjectShowcase = () => {
   // Sample project data with equal sizes
   const projects = [
     {
       id: 1,
       title: "E-commerce Platform",
-      image: "public/images/blue-sky-ocean.jpg", // 16:9 aspect ratio
+      image: Blue, // 16:9 aspect ratio
       category: "Web Development",
       features: ["Responsive Design", "Payment Gateway", "User Authentication", "Product Management"]
     },
     {
       id: 2,
       title: "Portfolio Website",
-      image: "public/images/iphon.jpg", // 16:9 aspect ratio
+      image: Iphon, // 16:9 aspect ratio
       category: "Frontend",
       features: ["Animation Effects", "Dark Mode", "Contact Form", "Performance Optimized"]
     },
     {
       id: 3,
       title: "Task Management App",
-      image: "public/images/it-studio-room.jpg", // 16:9 aspect ratio
+      image: TreeFlower, // 16:9 aspect ratio
       category: "Full Stack",
       features: ["Real-time Updates", "Drag & Drop", "Team Collaboration", "Mobile App"]
     },
     {
       id: 4,
       title: "Social Media Dashboard",
-      image: "public/images/tree-flower.jpg", // 16:9 aspect ratio
+      image: YellowSky, // 16:9 aspect ratio
       category: "UI/UX Design",
       features: ["Data Visualization", "Theme Customization", "Analytics", "Multi-platform"]
     },
     {
       id: 5,
       title: "Travel Booking System",
-      image: "public/images/yelloeis-sky.jpg", // 16:9 aspect ratio
+      image: StudyRoom, // 16:9 aspect ratio
       category: "Web Application",
       features: ["Maps Integration", "Booking System", "Payment Processing", "User Reviews"]
     },
     {
       id: 6,
       title: "Fitness Tracker",
-      image: "public/images/study-room.jpg", // 16:9 aspect ratio
+      image: ItStudioRoom, // 16:9 aspect ratio
       category: "Mobile App",
       features: ["Progress Tracking", "Workout Plans", "Health Metrics", "Social Sharing"]
     }

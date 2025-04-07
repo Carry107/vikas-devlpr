@@ -21,7 +21,7 @@ const TypingText = () => {
         setDisplayText(currentPhrase.substring(0, displayText.length + 1));
         if (displayText.length === currentPhrase.length) {
           setIsDeleting(true);
-          setTypingSpeed(100);
+          setTypingSpeed(1000);
           setTimeout(() => setTypingSpeed(50), 1000);
         }
       } else {
@@ -41,7 +41,7 @@ const TypingText = () => {
       <h1 className="text-5xl font-bold text-white mb-4">
         {displayText}<span className="animate-pulse">|</span>
       </h1>
-      <p className="text-xl text-blue-300">Full Stack Developer & Creative Coder</p>
+      <p className="text-xl text-zinc-300">Full Stack Developer & Creative Coder</p>
     </div>
   );
 };

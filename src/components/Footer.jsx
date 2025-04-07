@@ -56,7 +56,7 @@ const Footer = () => {
               Feel free to reach out for collaborations or just a friendly chat
             </p>
             <p className="text-gray-200">
-              <span className="font-semibold">Email:</span> vikasdevlpr@gmail.com
+              <span className="font-semibold">Email:</span> vikasdevlpr00@gmail.com
             </p>
             
             {/* Social Media Icons */}

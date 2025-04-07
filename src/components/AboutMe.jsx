@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
+import VikasDev from "../assets/vikas-dev.png"
 const AboutMe = () => {
   // Animation variants
   const containerVariants = {
@@ -58,7 +58,7 @@ const AboutMe = () => {
             <div className="relative h-full flex items-center justify-center">
               <div className="relative z-10 overflow-hidden rounded-2xl shadow-xl border-2 border-indigo-100">
                 <img 
-                  src="public/images/vikas-dev.png" 
+                  src={VikasDev} 
                   alt="Vikas Dev" 
                   className="w-full h-full object-cover" 
                 />
@@ -107,7 +107,7 @@ const AboutMe = () => {
               className="text-4xl font-bold mb-6 text-gray-800"
               variants={itemVariants}
             >
-              Hello! I'm <span className="text-indigo-600">Vikas</span>
+              Hello! I'm <span className="text-pink-600">Vikas</span>
             </motion.h2>
             
             <motion.div 
